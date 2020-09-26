@@ -29,7 +29,7 @@ module.exports = {
     inset: {
       'auto': 'auto',
       '-full': '-100%',
-      '-60': '-15.85rem',
+      '-60': '-18.85rem',
       0: 0,
       1: '.25rem',
       2: '.5rem',
