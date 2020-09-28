@@ -5,8 +5,13 @@
 @tailwind utilities;
 
 .link {
-    @apply block p-1 px-2 font-thin text-xs;
+    @apply block p-1 px-2 font-thin text-black;
 }
+
+.link.active {
+    @apply border-b border-blue;
+}
+
 .link-blue {
     @apply text-blue;
 }
@@ -24,6 +29,13 @@
 
 .btn-red:hover{
     @apply bg-red-600;
+}
+
+.btn-blue {
+    @apply text-white bg-blue transition-all duration-200 ease-in-out;
+}
+.btn-blue:hover{
+    @apply bg-blue-200;
 }
 
 .indicator {}

@@ -12,7 +12,6 @@ module.exports = {
       transitionDelay: {
         0: '0s',
       },
-
     },
     colors: {
       transparent: 'transparent',
@@ -23,6 +22,8 @@ module.exports = {
         600: '#e53e3e',
       },
       blue: '#3BC0BF',
+      'blue-200': '#3BC0BF90',
+      gray: '#F6F6F6',
       orange: '#f1c48d',
       white: '#ffffff',
     },
@@ -39,6 +40,7 @@ module.exports = {
     },
     maxHeight: {
       0: 0,
+      20: '4rem',
       screen: '100vh',
     },
     maxWidth: {
