@@ -12937,8 +12937,8 @@ video {
 .indicator::after {
   content: '';
   --bg-opacity: 1;
-  background-color: #3BC0BF;
-  background-color: rgba(59, 192, 191, var(--bg-opacity));
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, var(--bg-opacity));
   position: absolute;
   width: 0.5rem;
   height: 0.5rem;
